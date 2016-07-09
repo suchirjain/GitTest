@@ -1,2 +1,7 @@
 <head>1234</head>
 <list>suchir</list>
+ <soap:header use="literal" message="tns:Header" part="SessionHeader"/>
+                <soap:header use="literal" message="tns:Header" part="QueryOptions"/>
+                <soap:header use="literal" message="tns:Header" part="MruHeader"/>
+                <soap:header use="literal" message="tns:Header" part="PackageVersionHeader"/>
+                <soap:body parts="parameters" use="literal"/>
